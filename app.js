@@ -9,5 +9,6 @@ app.use(bodyParser.json());
 app.use(cors());
 
 app.use('/pgw', require('./route/pgw'));
+app.use('/test', require('./route/test'));
 
 module.exports = app;
